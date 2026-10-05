@@ -1,0 +1,622 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #fff1f7;
+    color: #5b4350;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.header {
+    background: #ffd6e7;
+    border: 1px solid #f3b4cf;
+    border-radius: 20px;
+    padding: 25px 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(210, 100, 150, 0.10);
+}
+
+.header h1 {
+    margin: 0;
+    color: #c94f83;
+    font-size: 32px;
+}
+
+.header p {
+    margin-bottom: 0;
+    color: #d66c98;
+    font-style: italic;
+}
+
+
+/* LAYOUT KIRI DAN KANAN */
+
+.content {
+    display: flex;
+    gap: 25px;
+    align-items: stretch;
+}
+
+
+/* KOTAK UPLOAD */
+
+.upload-box {
+    width: 32%;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #f3b4cf;
+    box-shadow: 0 5px 15px rgba(210, 100, 150, 0.08);
+}
+
+.upload-box h2 {
+    margin-top: 0;
+    background: #ffd6e7;
+    color: #c94f83;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+
+/* KOTAK DAFTAR FILE */
+
+.file-box {
+    width: 68%;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #f3b4cf;
+    box-shadow: 0 5px 15px rgba(210, 100, 150, 0.08);
+    overflow-x: auto;
+}
+
+.file-box h2 {
+    margin-top: 0;
+    background: #ffd6e7;
+    color: #c94f83;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+
+/* FORM */
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #5b4350;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #efb2cb;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #df6e9e;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #efb2cb;
+    border-radius: 10px;
+    background: #fff8fb;
+}
+
+
+/* TOMBOL UPLOAD */
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #eb78a7;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d95f91;
+}
+
+
+/* TABEL */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #ffe0ec;
+    color: #c94f83;
+    padding: 13px;
+    border: 1px solid #f3c7d8;
+}
+
+td {
+    padding: 13px;
+    text-align: center;
+    border: 1px solid #f3c7d8;
+}
+
+tr:hover {
+    background: #fff7fa;
+}
+
+
+/* TOMBOL AKSI */
+
+a {
+    text-decoration: none;
+}
+
+.download,
+.edit,
+.hapus {
+    display: inline-block;
+    padding: 8px 11px;
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #fff1f7;
+    color: #5b4350;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.header {
+    background: #ffd6e7;
+    border: 1px solid #f3b4cf;
+    border-radius: 20px;
+    padding: 25px 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(210, 100, 150, 0.10);
+}
+
+.header h1 {
+    margin: 0;
+    color: #c94f83;
+    font-size: 32px;
+}
+
+.header p {
+    margin-bottom: 0;
+    color: #d66c98;
+    font-style: italic;
+}
+
+
+/* LAYOUT KIRI DAN KANAN */
+
+.content {
+    display: flex;
+    gap: 25px;
+    align-items: stretch;
+}
+
+
+/* KOTAK UPLOAD */
+
+.upload-box {
+    width: 32%;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #f3b4cf;
+    box-shadow: 0 5px 15px rgba(210, 100, 150, 0.08);
+}
+
+.upload-box h2 {
+    margin-top: 0;
+    background: #ffd6e7;
+    color: #c94f83;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+
+/* KOTAK DAFTAR FILE */
+
+.file-box {
+    width: 68%;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #f3b4cf;
+    box-shadow: 0 5px 15px rgba(210, 100, 150, 0.08);
+    overflow-x: auto;
+}
+
+.file-box h2 {
+    margin-top: 0;
+    background: #ffd6e7;
+    color: #c94f83;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+
+/* FORM */
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #5b4350;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #efb2cb;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #df6e9e;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #efb2cb;
+    border-radius: 10px;
+    background: #fff8fb;
+}
+
+
+/* TOMBOL UPLOAD */
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #eb78a7;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d95f91;
+}
+
+
+/* TABEL */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #ffe0ec;
+    color: #c94f83;
+    padding: 13px;
+    border: 1px solid #f3c7d8;
+}
+
+td {
+    padding: 13px;
+    text-align: center;
+    border: 1px solid #f3c7d8;
+}
+
+tr:hover {
+    background: #fff7fa;
+}
+
+
+/* TOMBOL AKSI */
+
+a {
+    text-decoration: none;
+}
+
+.download,
+.edit,
+.hapus {
+    display: inline-block;
+    padding: 8px 11px;
+    margin: 2px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+
+/* DOWNLOAD */
+
+.download {
+    background: #eb78a7;
+    color: white;
+}
+
+.download:hover {
+    background: #d95f91;
+}
+
+
+/* EDIT */
+
+.edit {
+    background: #fff1f7;
+    color: #c94f83;
+    border: 1px solid #eb78a7;
+}
+
+.edit:hover {
+    background: #ffd6e7;
+}
+
+
+/* HAPUS */
+
+.hapus {
+    background: #fff1f7;
+    color: #c94f83;
+    border: 1px solid #eb78a7;
+}
+
+.hapus:hover {
+    background: #ffd6e7;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    color: #d66c98;
+    padding: 30px;
+    font-style: italic;
+}
+
+
+/* TAMPILAN HP */
+
+@media (max-width: 850px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .upload-box,
+    .file-box {
+        width: 100%;
+    }
+
+}   margin: 2px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+
+/* DOWNLOAD */
+
+.download {
+    background: #eb78a7;
+    color: white;
+}
+
+.download:hover {
+    background: #d95f91;
+}
+
+
+/* EDIT */
+
+.edit {
+    background: #fff1f7;
+    color: #c94f83;
+    border: 1px solid #eb78a7;
+}
+
+.edit:hover {
+    background: #ffd6e7;
+}
+
+
+/* HAPUS */
+
+.hapus {
+    background: #fff1f7;
+    color: #c94f83;
+    border: 1px solid #eb78a7;
+}
+
+.hapus:hover {
+    background: #ffd6e7;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    color: #d66c98;
+    padding: 30px;
+    font-style: italic;
+}
+
+
+/* TAMPILAN HP */
+
+@media (max-width: 850px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .upload-box,
+    .file-box {
+        width: 100%;
+    }
+
+}
+/* PREVIEW FILE */
+
+.preview {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #f3b4cf;
+    display: block;
+    margin: auto;
+}
+
+.file-icon {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 12px;
+    background: #ffe0ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.identity {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #c94f83;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 350px;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(255, 180, 80, 0.25);
+    text-align: center;
+}
+/* ===== LOGIN ===== */
+
+.login-box {
+    width: 360px;
+    padding: 35px;
+    background: #fffdf8;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(200, 150, 80, 0.18);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.login-box h1 {
+    color: #e8899b;
+    margin-bottom: 8px;
+}
+
+.login-box p {
+    color: #9b7b68;
+}
+
+/* Semua kotak input dibuat sama */
+.login-box input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    margin: 12px 0;
+    padding: 10px 14px;
+    border: 2px solid #f3c6a8;
+    border-radius: 12px;
+    background: #fff;
+    color: #6f5748;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-box input:focus {
+    border-color: #e89aaa;
+}
+
+/* Tombol */
+.login-box button {
+    width: 100%;
+    height: 45px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 12px;
+    background: #f2b6a0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #e99a8b;
+}
+
+/* Link Buat Akun & Ganti Password */
+.login-box a {
+    color: #d9828f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-box a:hover {
+    color: #b96776;
+    text-decoration: underline;
+}
